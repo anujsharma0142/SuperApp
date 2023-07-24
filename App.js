@@ -1,14 +1,14 @@
-import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import Login from './src/components/Login';
-import Header from './src/components/Header/Header';
+import Login from './src/screens/Login';
+import TabNavigator from './TabNavigator';
 
 const App = () => {
-  return <>
-  {/* <Login/> */}
-  <Header/>
-
-  </>
+  return (
+    <>
+      {/* <Login /> */}
+      <TabNavigator />
+    </>
+  );
 };
 
 export default App;
